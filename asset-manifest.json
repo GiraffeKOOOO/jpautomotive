@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jpautomotive/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/jpautomotive/static/js/main.f7138f74.chunk.js",
+    "main.js.map": "/jpautomotive/static/js/main.f7138f74.chunk.js.map",
+    "runtime-main.js": "/jpautomotive/static/js/runtime-main.fa5e9da1.js",
+    "runtime-main.js.map": "/jpautomotive/static/js/runtime-main.fa5e9da1.js.map",
+    "static/js/2.445453b8.chunk.js": "/jpautomotive/static/js/2.445453b8.chunk.js",
+    "static/js/2.445453b8.chunk.js.map": "/jpautomotive/static/js/2.445453b8.chunk.js.map",
+    "static/js/3.8b954faf.chunk.js": "/jpautomotive/static/js/3.8b954faf.chunk.js",
+    "static/js/3.8b954faf.chunk.js.map": "/jpautomotive/static/js/3.8b954faf.chunk.js.map",
+    "index.html": "/jpautomotive/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/jpautomotive/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.445453b8.chunk.js.LICENSE.txt": "/jpautomotive/static/js/2.445453b8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jpautomotive/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa5e9da1.js",
+    "static/js/2.445453b8.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.f7138f74.chunk.js"
+  ]
+}
