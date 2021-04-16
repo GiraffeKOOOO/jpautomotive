@@ -17,9 +17,10 @@ export default function NavHeader() {
                             id="logo-header"
                         />
                     </Col>
-                    <Col>
+                    <Col id="nav-buttons">
+                    {/*
                         <Row>
-                            {/* information about business here */}
+                             nformation about business here
                             <div className="info-div">
                                 <Telephone color="white" size={20} style={{marginRight: '5px', marginTop: '3px',}}/><p>07498 943120</p>
                             </div>
@@ -27,7 +28,9 @@ export default function NavHeader() {
                                 <Envelope color="white" size={20} style={{marginRight: '5px', marginTop: '5px',}}/><p>j.pautomotivetec@gmail.com</p>
                             </div>
                         </Row>
+                    
                         <Row>
+                            */}
                             {/* whilst this is hosted on github pages, the path for the homepage needs to include jpautomotive*/}
                             <Link to='/jpautomotive'>
                                 <Button variant="outline-primary" className="nav-button">Home</Button>
@@ -35,7 +38,12 @@ export default function NavHeader() {
                             <Link to='/about'>
                                 <Button variant="outline-primary" className="nav-button">About</Button>
                             </Link>
+                            <Link to='/contact'>
+                                <Button variant="outline-primary" className="nav-button">Contact Us</Button>
+                            </Link>
+                           {/* 
                         </Row>
+                        */} 
                     </Col>
                 </Row>
             </Container>
