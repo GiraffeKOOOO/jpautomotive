@@ -1,8 +1,13 @@
+// import react
 import React from 'react';
+// import necessary components
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Telephone, Envelope } from 'react-bootstrap-icons';
+import { Button } from "@react-md/button";
+// import styling
 import '../css/NavHeader.css';
+// import media
 import jplogo from '../images/jp-logo-1.png';
 
 export default function NavHeader() {
@@ -33,13 +38,13 @@ export default function NavHeader() {
                             */}
                             {/* whilst this is hosted on github pages, the path for the homepage needs to include jpautomotive*/}
                             <Link to='/jpautomotive'>
-                                <Button variant="outline-primary" className="nav-button">Home</Button>
+                                <Button theme="primary" themeType="outline" className="nav-button">Home</Button>
                             </Link>
                             <Link to='/about'>
-                                <Button variant="outline-primary" className="nav-button">About</Button>
+                                <Button theme="primary" themeType="outline" className="nav-button">About</Button>
                             </Link>
                             <Link to='/contact'>
-                                <Button variant="outline-primary" className="nav-button">Contact Us</Button>
+                                <Button theme="primary" themeType="outline" className="nav-button">Contact Us</Button>
                             </Link>
                            {/* 
                         </Row>
