@@ -1,10 +1,12 @@
 #nav-container {
     background-color: rgb(150, 189, 253);
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 #logo-header {
-    height: 90px;
-    width: 150px;
+    height: 140px;
+    width: 280px;
 }
 
 .nav-button {
@@ -21,8 +23,28 @@
 
 .info-div {
     display: inline-flex;
-    margin: 5px;
-    padding: 4px;
-    border: solid 2px white;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.info-div p {
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.info-div svg {
+    margin: auto;
+    margin-left: 5px;
+}
+
+#row-top {
+    
+}
+
+#row-bottom {
+    margin-top: 10px;
+    float: right;
 }
