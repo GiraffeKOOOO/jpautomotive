@@ -11,14 +11,32 @@
 
 .nav-button {
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    letter-spacing: normal;
+    border-radius: 7px;
+    border: 1px solid blue;
+
+    background-image:#cc99ff;background-image:  
+    radial-gradient(at 1% 0%, hsla(182,64%,73%,1) 0, transparent 59%),  
+    radial-gradient(at 6% 29%, hsla(18,92%,69%,1) 0, transparent 43%),  
+    radial-gradient(at 97% 89%, hsla(166,73%,77%,1) 0, transparent 41%),  
+    radial-gradient(at 99% 19%, hsla(359,89%,66%,1) 0, transparent 58%);
+}
+
+.nav-button :hover {
+    text-decoration: none;
 }
 
 #nav-buttons {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .info-div {
@@ -41,10 +59,11 @@
 }
 
 #row-top {
-    
+    display: block;
+    text-align: right;
 }
 
 #row-bottom {
-    margin-top: 10px;
-    float: right;
+    display: block;
+    text-align: right;
 }
