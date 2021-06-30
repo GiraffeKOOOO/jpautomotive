@@ -1,5 +1,11 @@
 #nav-container {
-    background-color: rgb(150, 189, 253);
+    background-color: rgba(150, 189, 253, 0);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#nav-container.active {
+    background-color: rgba(150, 189, 253, 1);
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -15,19 +21,13 @@
     margin-right: 20px;
     padding-bottom: 6px;
     padding-top: 6px;
-    
+    background-color: orange;
     color: white;
     font-size: 20px;
     font-family: Arial;
     letter-spacing: normal;
     border-radius: 7px;
     border: 1px solid blue;
-
-    background-image:#cc99ff;background-image:  
-    radial-gradient(at 1% 0%, hsla(182,64%,73%,1) 0, transparent 59%),  
-    radial-gradient(at 6% 29%, hsla(18,92%,69%,1) 0, transparent 43%),  
-    radial-gradient(at 97% 89%, hsla(166,73%,77%,1) 0, transparent 41%),  
-    radial-gradient(at 99% 19%, hsla(359,89%,66%,1) 0, transparent 58%);
 }
 
 .nav-button :hover {
@@ -43,7 +43,6 @@
     display: inline-flex;
     background-color: white;
     border-radius: 7px;
-    border: 2px solid black;
     margin-left: 10px;
 }
 
