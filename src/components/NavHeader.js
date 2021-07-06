@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { Telephone, Envelope } from 'react-bootstrap-icons';
 import { Button } from "@react-md/button";
 // import styling
-import '../css/NavHeader.css';
+import '../css/components/NavHeader.css';
 // import media
 import jplogo from '../images/jp-logo-1.png';
 
