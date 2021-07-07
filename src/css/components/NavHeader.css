@@ -1,7 +1,6 @@
 #nav-container {
   background-color: rgb(96, 157, 255);
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 #nav-container.active {
@@ -16,14 +15,13 @@
 }
 
 .nav-button {
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-bottom: 6px;
-  padding-top: 6px;
-  background-color: orange;
-  color: black;
-  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  color: white;
+  font-size: 15px;
   font-family: Arial;
   letter-spacing: normal;
   border-radius: 7px;
@@ -41,27 +39,50 @@
 .info-div {
   display: inline-flex;
   background-color: white;
-  border-radius: 7px;
+  border-radius: 20px;
   margin-left: 10px;
+  box-shadow: 2px 2px;
 }
 
 .info-div p {
   margin: auto;
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .info-div svg {
   margin: auto;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 #row-top {
   display: block;
   text-align: right;
+  margin-bottom: 5px;
 }
 
 #row-bottom {
   display: block;
   text-align: right;
+}
+
+#contact-hours-table {
+  text-align: center;
+}
+
+#contact-hours-table tr td {
+  padding: 4px;
+}
+
+#contact-hours-table td:nth-child(1) {
+  border-right: solid 1px black;
+}
+
+#top-line {
+  border-top: solid 1px black;
+}
+
+#clock-svg {
+  position: relative;
+  bottom: 5px;
 }
