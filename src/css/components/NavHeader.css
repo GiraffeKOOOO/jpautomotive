@@ -3,86 +3,32 @@
   padding-bottom: 2px;
 }
 
-#nav-container.active {
-  background-color: rgba(150, 189, 253, 1);
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
 #logo-header {
-  height: 140px;
-  width: 280px;
+  height: 110px;
+  width: 240px;
 }
 
-.nav-button {
-  margin-top: 5px;
-  margin-left: 14px;
-  margin-right: 14px;
-  padding-bottom: 2px;
-  padding-top: 2px;
-  color: white;
-  font-size: 15px;
-  font-family: Arial;
-  letter-spacing: normal;
-  border-radius: 7px;
-}
-
-.nav-button :hover {
-  text-decoration: none;
-}
-
-#nav-buttons {
-  display: flex;
-  align-items: center;
+#nav-info {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .info-div {
-  display: inline-flex;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 10px;
-  box-shadow: 2px 2px;
+  display: table-cell;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .info-div p {
   margin: auto;
-  padding: 10px;
-  font-size: 16px;
+  padding: 5px;
+  font-size: 18px;
 }
 
-.info-div svg {
-  margin: auto;
-  margin-left: 10px;
-}
-
-#row-top {
-  display: block;
-  text-align: right;
-  margin-bottom: 5px;
-}
-
-#row-bottom {
-  display: block;
-  text-align: right;
-}
-
-#contact-hours-table {
+#contact-hours-tbl table {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-}
-
-#contact-hours-table tr td {
-  padding: 4px;
-}
-
-#contact-hours-table td:nth-child(1) {
-  border-right: solid 1px black;
-}
-
-#top-line {
-  border-top: solid 1px black;
-}
-
-#clock-svg {
-  position: relative;
-  bottom: 5px;
 }
