@@ -5,8 +5,7 @@ import React from 'react';
 // import styling
 import '../css/pages/HomePage.css';
 
-
-export default function Home() {
+function Home() {
     return(
         <div className="page-container">
             <h3>Home page</h3>
@@ -18,3 +17,5 @@ export default function Home() {
         </div>
     );
 }
+
+export default Home;
