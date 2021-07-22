@@ -1,0 +1,25 @@
+#button-container {
+    background-color: #03b6fc;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#nav-button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nav-triangle {
+    width: 50px;
+    height: 100%;
+    background-image:
+        linear-gradient(to bottom right, transparent 50%, #03b6fc 0),
+        linear-gradient(to top right, #03b6fc 50%, transparent 0);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    position: relative;
+    right: 508px;
+    z-index: 0;
+}

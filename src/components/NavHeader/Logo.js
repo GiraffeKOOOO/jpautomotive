@@ -13,6 +13,7 @@ const Logo = () => {
                     src={jplogo}
                     alt="jplogo"
                     id="logo-img"
+                    onClick={() => window.location = '/jpautomotive'}
                 />
             </div>
             <div id="logo-triangle"/>

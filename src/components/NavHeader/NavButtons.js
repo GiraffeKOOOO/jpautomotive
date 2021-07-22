@@ -1,7 +1,7 @@
 // import react
 import React from 'react';
 // import necessary components
-import { Button } from "@react-md/button";
+import Button from 'react-bootstrap/Button';
 // import styling
 import '../../css/components/NavHeader/NavButtons.css';
 // import media
@@ -9,12 +9,14 @@ import '../../css/components/NavHeader/NavButtons.css';
 
 const NavButtons = () => {
     return(
-        <div id="buttons-container">
-            <button>Press me</button>
-            <button>Press me</button>
-            <button>Press me</button>
-            <button>Press me</button>
-            <button>Press me</button>
+        <div id="button-container">
+            <div id="button-wrapper">
+                <Button id="nav-button">Home</Button>
+                <Button id="nav-button">Services</Button>
+                <Button id="nav-button">About</Button>
+                <Button id="nav-button">Contact Us</Button>
+            </div>
+            <div id="nav-triangle"/>
         </div>
     )
 }

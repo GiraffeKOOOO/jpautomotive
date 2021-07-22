@@ -12,16 +12,16 @@ const Information = () => {
     return(
         <Container id="info-container">
             <Row>
-                <Col>
-                    <ClockFill color="Blue" size={21}/>
+                <Col id="info-col">
+                    <ClockFill color="#03b6fc" size={21}/>
                     <p>Mon-Fri: 9am-5pm</p>
                 </Col>
                 <Col>
-                    <TelephoneFill color="blue" size={22}/>
+                    <TelephoneFill color="#03b6fc" size={22}/>
                     <p>07498943120</p>
                 </Col>
                 <Col>
-                    <EnvelopeFill color="blue" size={22}/>
+                    <EnvelopeFill color="#03b6fc" size={22}/>
                     <p>j.pautomotivetec@gmail.com</p>
                 </Col>
             </Row>
