@@ -3,8 +3,12 @@
 }
 
 #logo-div {
-    background-color: #03b6fc;
+    background-image: url('../../../images/logo-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-left: 45%;
+    padding-right: 60px;
 }
 
 #logo-img {
@@ -13,22 +17,13 @@
     margin-right: 40px;
 }
 
-#logo-container {
-    width: 100%;
-    
+#logo-img:hover {
+    background-color: #00a2e0;
+    border-style: 1px solid grey;
+    border-radius: 90px;
+    transition: 0.2s;
 }
 
-#logo-triangle {
-    width: 100px;
-    height: 120px;
-    background-image:
-        linear-gradient(to bottom right, transparent 50%, #03b6fc 0),
-        linear-gradient(to top right, #03b6fc 50%, transparent 0);
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: left, right;
-    transform: rotate(180deg);
-    position: relative;
-    left: -50px;
-    z-index: 0;
+#logo-container {
+    width: 100%;
 }

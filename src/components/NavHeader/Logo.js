@@ -5,6 +5,7 @@ import '../../css/components/NavHeader/Logo.css';
 // import media
 import jplogo from '../../images/jp-logo-1.png';
 
+
 const Logo = () => {
     return(
         <div id="logo-container">
@@ -16,7 +17,6 @@ const Logo = () => {
                     onClick={() => window.location = '/jpautomotive'}
                 />
             </div>
-            <div id="logo-triangle"/>
         </div>
     )
 }

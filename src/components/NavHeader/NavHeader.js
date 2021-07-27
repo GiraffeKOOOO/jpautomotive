@@ -1,9 +1,7 @@
 // import react
 import React from 'react';
 // import library components
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Button } from "@react-md/button";
 // import custom components
 import Logo from './Logo';
 import Information from './Information';

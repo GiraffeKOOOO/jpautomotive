@@ -16,7 +16,6 @@ const NavButtons = () => {
                 <Button id="nav-button">About</Button>
                 <Button id="nav-button">Contact Us</Button>
             </div>
-            <div id="nav-triangle"/>
         </div>
     )
 }
