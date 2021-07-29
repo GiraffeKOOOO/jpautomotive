@@ -1,0 +1,30 @@
+#button-container {
+    background-image: url('../../../images/buttons-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 80px;
+    margin-left: -100px;
+}
+
+#button-wrapper {
+    height: 100%;
+}
+
+#nav-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+    background-color: #03b6fc;
+    border-style: none;
+}
+
+#nav-button:hover {
+    background-color: #0096d1;
+}

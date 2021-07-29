@@ -1,0 +1,29 @@
+#logo-container {
+    display: flex;
+}
+
+#logo-div {
+    background-image: url('../../../images/logo-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 45%;
+    padding-right: 60px;
+}
+
+#logo-img {
+    width: 240px;
+    height: 120px;
+    margin-right: 40px;
+}
+
+#logo-img:hover {
+    background-color: #00a2e0;
+    border-style: 1px solid grey;
+    border-radius: 90px;
+    transition: 0.2s;
+}
+
+#logo-container {
+    width: 100%;
+}

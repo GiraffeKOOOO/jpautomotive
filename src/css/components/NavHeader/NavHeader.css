@@ -1,0 +1,16 @@
+#nav-container {
+  background-color: white;
+}
+
+#quadrant-logo {
+  padding-left: 0px;
+}
+
+#quadrant-logo-below {
+  height: 40px;
+}
+
+#quadrant-buttons {
+  height: 50px;
+  padding-right: 0px;
+}

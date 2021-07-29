@@ -1,0 +1,12 @@
+#tracker-container {
+    font-family: 'Abel';
+    color: white;
+}
+
+.tracker-number {
+    font-size: 80px;
+}
+
+#tracker-name {
+    font-size: 30px;
+}
