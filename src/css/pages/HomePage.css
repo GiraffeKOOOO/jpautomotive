@@ -55,3 +55,30 @@
   display: flex;
   justify-content: center;
 }
+
+#row-contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: red;
+}
+
+#inner-contact-row {
+  background-color: green;
+}
+
+.contact-col {
+  border: solid 1px black;
+}
+
+#info-col {
+  margin-right: 10px;
+}
+
+
+#info-col-img {
+  margin-left: 10px;
+}
+
+#support-icon {
+
+}

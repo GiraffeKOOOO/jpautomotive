@@ -11,6 +11,7 @@ import '../css/pages/HomePage.css';
 import carDiagnostic from '../images/car-diagnostic.png';
 import carTire from '../images/car-tire.png';
 import carMaintenance from '../images/car-maintenance.png';
+import supportIcon from '../images/support-icon.png';
 
 function Home() {
     return(
@@ -62,21 +63,48 @@ function Home() {
                             <Row>
                                 <Col className="col-tracker">
                                     <Tracker
-                                        trackerNumber={400}
-                                        trackerName="Tires changed"
+                                        trackerNumber={24}
+                                        trackerName="Jobs Completed"
                                     />
                                 </Col>
-                                <Col className="col-tracker">1</Col>
-                                <Col className="col-tracker">1</Col>
-                                <Col className="col-tracker">1</Col>
+                                <Col className="col-tracker">
+                                    <Tracker
+                                        trackerNumber={13}
+                                        trackerName="Tires Changed"
+                                    />
+                                </Col>
+                                <Col className="col-tracker">
+                                    <Tracker
+                                        trackerNumber={17}
+                                        trackerName="Oil Filters Replaced"
+                                    />
+                                </Col>
+                                <Col className="col-tracker">
+                                    <Tracker
+                                        trackerNumber={11}
+                                        trackerName="Cars Diagnosed"
+                                    />
+                                </Col>
                             </Row>
                         </Container>
                     </Col>
                 </Row>
-                <Row id="row-temp">
-                    <Col id="col-temp">
-                        1
+                <Row id="row-contact"> 
+                    <Col id="left-col" md={1}/>
+                    <Col id="center-col" md={10}>
+                        <h1 className="home-page-title"> Contact Information</h1>
+                        <Row id="inner-contact-row">
+                            <Col className="contact-col" id="info-col">1</Col>
+                            <Col className="contact-col" id="info-col-img">
+                                <img
+                                    src={supportIcon}
+                                    alt="support-icon"
+                                    id="support-icon"
+                                />
+                            </Col>
+                        </Row>
                     </Col>
+                    <Col id="right-col" md={1}/>
                 </Row>
             </Container>
         </div>
