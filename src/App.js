@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavHeader from './components/NavHeader/NavHeader';
+import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/jpautomotive" exact component={HomePage}/>
           <Route path="/jpautomotive/about" component={AboutPage}/>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   );
