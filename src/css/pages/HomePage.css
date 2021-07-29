@@ -1,3 +1,57 @@
+#home-page-body {
+  width: 100%;
+  height: 100%;
+}
+
+#center-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .page-container {
-  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+#row-services {
+  margin-top: 50px;
+}
+
+.home-page-title {
+  font-family: 'Abel';
+  font-size: 55px;
+}
+
+#services-container {
+  margin-top: 50px;
+}
+
+.col-service-card {
+  display: flex;
+  justify-content: center;
+}
+
+#row-trackers {
+  margin-top: 50px;
+}
+
+#col-trackers {
+  background-color: #bfbfbf;
+  height: 300px;
+}
+
+#col-temp {
+  height: 300px;
+}
+
+#trackers-title {
+  color: white;
+  font-family: 'Abel';
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.col-tracker {
+  display: flex;
+  justify-content: center;
 }
