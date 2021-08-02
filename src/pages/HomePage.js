@@ -5,6 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import HomeCarousel from '../components/HomeCarousel';
 import ServiceCard from '../components/ServiceCard';
 import Tracker from '../components/Tracker';
+import ContactAccordion from '../components/ContactAccordion';
 // import styling
 import '../css/pages/HomePage.css';
 // import media
@@ -90,11 +91,13 @@ function Home() {
                     </Col>
                 </Row>
                 <Row id="row-contact"> 
-                    <Col id="left-col" md={1}/>
-                    <Col id="center-col" md={10}>
+                    <Col id="left-col" md={2}/>
+                    <Col id="center-col" md={8}>
                         <h1 className="home-page-title"> Contact Information</h1>
                         <Row id="inner-contact-row">
-                            <Col className="contact-col" id="info-col">1</Col>
+                            <Col className="contact-col" id="info-col">
+                                <ContactAccordion/>
+                            </Col>
                             <Col className="contact-col" id="info-col-img">
                                 <img
                                     src={supportIcon}
@@ -104,7 +107,7 @@ function Home() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col id="right-col" md={1}/>
+                    <Col id="right-col" md={2}/>
                 </Row>
             </Container>
         </div>
