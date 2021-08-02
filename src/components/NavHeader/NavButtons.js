@@ -2,6 +2,7 @@
 import React from 'react';
 // import necessary components
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 // import styling
 import '../../css/components/NavHeader/NavButtons.css';
 // import media
@@ -11,10 +12,10 @@ const NavButtons = () => {
     return(
         <div id="button-container">
             <div id="button-wrapper">
-                <Button id="nav-button">Home</Button>
-                <Button id="nav-button">Services</Button>
-                <Button id="nav-button">About</Button>
-                <Button id="nav-button">Contact Us</Button>
+                <Link id="nav-link" to="/jpautomotive">Home</Link>
+                <Link id="nav-link">Services</Link>
+                <Link id="nav-link" to="/jpautomotive/about">About</Link>
+                <Link id="nav-link">Contact Us</Link>
             </div>
         </div>
     )
