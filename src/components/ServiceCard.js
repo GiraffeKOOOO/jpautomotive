@@ -1,7 +1,7 @@
 // import react
 import React from 'react';
 // import necessary components
-import Card from 'react-bootstrap/Card'
+import Card from 'react-bootstrap/Card';
 // import styling
 import '../css/components/ServiceCard.css';
 

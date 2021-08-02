@@ -57,28 +57,23 @@
 }
 
 #row-contact {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: red;
+  margin-top: 50px;
 }
 
 #inner-contact-row {
-  background-color: green;
-}
-
-.contact-col {
-  border: solid 1px black;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #info-col {
-  margin-right: 10px;
+  padding: 0;
 }
 
-
 #info-col-img {
-  margin-left: 10px;
+  padding: 0;
 }
 
 #support-icon {
-
+  padding: 0;
+  float: left;
 }
