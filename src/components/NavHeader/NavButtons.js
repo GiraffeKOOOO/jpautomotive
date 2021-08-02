@@ -1,7 +1,6 @@
 // import react
 import React from 'react';
 // import necessary components
-import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 // import styling
 import '../../css/components/NavHeader/NavButtons.css';
