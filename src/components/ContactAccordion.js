@@ -1,9 +1,9 @@
 // import react
 import React from 'react';
 // import necessary components
-import {Accordion, Card } from 'react-bootstrap';
+import { Accordion, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { AiFillCaretDown } from "react-icons/ai";
+import { AiFillCaretDown } from 'react-icons/ai';
 // import styling
 import '../css/components/ContactAccordion.css';
 // import media
@@ -57,10 +57,10 @@ function ContactAccordion() {
                         The contact form can be found on the 'Contact Us' page.
                         Please click on the button below to be taken to the 'Contact Us' page.
                       </p>
-                      <p>
+                      <p id="accordion-contact-text">
                         Navigate to the 'Contact Us' page:
                       </p>
-                      <Link to="jpautomotive/contact">Contact Us</Link>
+                      <Link id="nav-link" to="jpautomotive/contact">Contact Us</Link>
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
