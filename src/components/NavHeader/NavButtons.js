@@ -12,9 +12,9 @@ const NavButtons = () => {
         <div id="button-container">
             <div id="button-wrapper">
                 <Link id="nav-link" to="/jpautomotive">Home</Link>
-                <Link id="nav-link">Services</Link>
+                <Link id="nav-link" to="/jpautomotive/services">Services</Link>
                 <Link id="nav-link" to="/jpautomotive/about">About</Link>
-                <Link id="nav-link">Contact Us</Link>
+                <Link id="nav-link" to="/jpautomotive/contact">Contact Us</Link>
             </div>
         </div>
     )

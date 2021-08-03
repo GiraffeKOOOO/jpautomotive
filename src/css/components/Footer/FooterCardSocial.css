@@ -1,0 +1,44 @@
+#card {
+    color: white;
+    background-color: #6e6e6e;
+    font-size: 15px;
+    border-style: none;
+}
+
+#facebook {
+    color: white;
+}
+
+#facebook:hover {
+    color: #b0b0b0;
+    transition: 0.2s;
+}
+
+#twitter {
+    color: white;
+    margin-left: 10px;
+}
+
+#twitter:hover {
+    color: #b0b0b0;
+    transition: 0.2s;
+}
+
+#youtube {
+    color: white;
+}
+
+#youtube:hover {
+    color: #b0b0b0;
+    transition: 0.2s;
+}
+
+#instagram {
+    color: white;
+    margin-left: 3px;
+}
+
+#instagram:hover {
+    color: #b0b0b0;
+    transition: 0.2s;
+}
