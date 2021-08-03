@@ -5,3 +5,11 @@
 .AiFillCaretDown {
     float: right;
 }
+
+#nav-link {
+    background-color: #03b6fc;
+}
+
+#accordion-contact-text {
+    margin-bottom: 25px;
+}
