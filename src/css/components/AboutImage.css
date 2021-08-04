@@ -1,0 +1,25 @@
+.info-circles{
+    width: 500px;
+    height: 500px;
+    background: #03b6fc;
+    border-radius: 50%;
+    z-index: 1;
+    top: -550px;
+    left: 200px;
+    position: relative;
+    word-wrap: break-word;
+    
+  }
+  
+  .place-holder {
+    width: 100%;
+    height: 600px;
+  }
+
+  #about-image-container {
+    height: 600px;
+  }
+
+  #right {
+      left: 1250px;
+  }
