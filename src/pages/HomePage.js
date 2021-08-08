@@ -66,8 +66,12 @@ function Home() {
                                     <Tracker
                                         trackerNumber={24}
                                         trackerName="Jobs Completed"
+                                        begin={false}
                                     />
                                 </Col>
+                                {/** 
+                                 * 
+                                 * 
                                 <Col className="col-tracker">
                                     <Tracker
                                         trackerNumber={13}
@@ -86,6 +90,11 @@ function Home() {
                                         trackerName="Cars Diagnosed"
                                     />
                                 </Col>
+                                 * 
+                                 * 
+                                 * 
+                                */}
+                                
                             </Row>
                         </Container>
                     </Col>

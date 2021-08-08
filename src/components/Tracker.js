@@ -2,6 +2,7 @@
 import React from 'react';
 // import necessary components
 import AnimatedNumber from "animated-number-react";
+import { InView } from 'react-intersection-observer';
 // import styling
 import '../css/components/Tracker.css';
 
@@ -11,14 +12,22 @@ function Tracker(props) {
 
     return (
         <div id="tracker-container">
-            <AnimatedNumber
-                value={value}
-                duration={2000}
-                delay={500}
-                formatValue={formatValue}
-                className="tracker-number"
-            />
-            <h4 id="tracker-name">{props.trackerName}</h4>
+            <InView>
+                {( {inView, ref, entry } ) => (
+                    <div ref={ref}>
+                    <AnimatedNumber
+                        value={value}
+                        duration={2000}
+                        delay={500}
+                        formatValue={formatValue}
+                        className="tracker-number"
+                        begin={props.begin}
+                    />
+                    <h4 id="tracker-name" className={inView}>{props.trackerName}</h4>
+                    </div>
+                )}
+            
+            </InView>
         </div>
     );
 }
