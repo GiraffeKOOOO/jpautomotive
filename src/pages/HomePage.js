@@ -66,7 +66,6 @@ function Home() {
                                     <Tracker
                                         trackerNumber={24}
                                         trackerName="Jobs Completed"
-                                        begin={false}
                                     />
                                 </Col>
                                 {/** 

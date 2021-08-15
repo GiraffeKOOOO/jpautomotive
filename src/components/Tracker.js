@@ -2,34 +2,55 @@
 import React from 'react';
 // import necessary components
 import AnimatedNumber from "animated-number-react";
-import { InView } from 'react-intersection-observer';
 // import styling
 import '../css/components/Tracker.css';
 
+function useOnScreen(options) {
+    const [ref, setRef] = React.useState(null);
+    const [visible, setVisible] = React.useState(false);
+
+    React.useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => {
+            setVisible(entry.isIntersecting);
+        }, options)
+        
+        if(ref) {
+            observer.observe(ref);
+        }
+
+        return () => {
+            if(ref) {
+                observer.unobserve(ref);
+            }
+        };
+
+    }, [ref, options])
+
+    return [setRef, visible];
+
+}
+
 function Tracker(props) {
     const value = props.trackerNumber;
-    const formatValue = value => `${Number(value).toFixed(0)}`;
+    const [setRef, visible] = useOnScreen({rootMargin: '-210px'})
 
     return (
-        <div id="tracker-container">
-            <InView>
-                {( {inView, ref, entry } ) => (
-                    <div ref={ref}>
-                    <AnimatedNumber
-                        value={value}
-                        duration={2000}
-                        delay={500}
-                        formatValue={formatValue}
-                        className="tracker-number"
-                        begin={props.begin}
-                    />
-                    <h4 id="tracker-name" className={inView}>{props.trackerName}</h4>
-                    </div>
-                )}
-            
-            </InView>
+        <div 
+            id="tracker-container"
+            ref={setRef}
+        >
+            <AnimatedNumber
+                value={value}
+                duration={2000}
+                delay={500}
+                formatValue={(n) => n.toFixed(0)}
+                className="tracker-number"
+                begin={null}
+            />
+            <h4 id="tracker-name">{props.trackerName}</h4>
+            <p>{visible? "visble" : "invisible"}</p>
         </div>
     );
 }
-
+ 
 export default Tracker;
