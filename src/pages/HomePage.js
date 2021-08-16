@@ -85,7 +85,7 @@ function Home() {
                                         trackerNumber={11}
                                         trackerName="Cars Diagnosed"
                                     />
-                                </Col>
+                                </Col>           
                             </Row>
                         </Container>
                     </Col>
