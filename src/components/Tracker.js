@@ -6,49 +6,55 @@ import AnimatedNumber from "animated-number-react";
 import '../css/components/Tracker.css';
 
 function useOnScreen(options) {
-    const [ref, setRef] = React.useState(null);
+    const ref = React.useRef();
     const [visible, setVisible] = React.useState(false);
 
     React.useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
-            setVisible(entry.isIntersecting);
+            if (entry.isIntersecting === true) {
+                setVisible(true)
+            }
         }, options)
-        
-        if(ref) {
-            observer.observe(ref);
+
+        if (ref.current) {
+            observer.observe(ref.current);
         }
 
         return () => {
-            if(ref) {
-                observer.unobserve(ref);
+            if (ref.current) {
+                observer.unobserve(ref.current);
             }
-        };
+        }
+    }, [])
 
-    }, [ref, options])
-
-    return [setRef, visible];
-
+    return [ref, visible]
 }
 
 function Tracker(props) {
     const value = props.trackerNumber;
-    const [setRef, visible] = useOnScreen({rootMargin: '-210px'})
+    const [animatedRef, visible] = useOnScreen({rootMargin: "-100px"});
 
     return (
         <div 
             id="tracker-container"
-            ref={setRef}
+            ref={animatedRef}
         >
-            <AnimatedNumber
-                value={value}
-                duration={2000}
-                delay={500}
-                formatValue={(n) => n.toFixed(0)}
-                className="tracker-number"
-                begin={null}
-            />
+            {visible?
+                <AnimatedNumber
+                    value={value}
+                    duration={2000}
+                    delay={400}
+                    formatValue={(n) => n.toFixed(0)}
+                    className="tracker-number"
+
+                /> 
+                :
+                <AnimatedNumber
+                    value={0}
+                    className="tracker-number"
+                />
+            }
             <h4 id="tracker-name">{props.trackerName}</h4>
-            <p>{visible? "visble" : "invisible"}</p>
         </div>
     );
 }
