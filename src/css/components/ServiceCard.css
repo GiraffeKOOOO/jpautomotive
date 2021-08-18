@@ -7,5 +7,12 @@
 }
 
 .card-header:hover {
-    background-color: #ffffff !important;
+    background-color: #f7f7f7 !important;
+}
+
+@media (max-width: 375px) {
+    #card-div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

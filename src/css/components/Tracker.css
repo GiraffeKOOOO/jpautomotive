@@ -4,9 +4,19 @@
 }
 
 .tracker-number {
-    font-size: 80px;
+    font-size: 5.5rem;
 }
 
 #tracker-name {
-    font-size: 30px;
+    font-size: 2rem;
+}
+
+@media (max-width: 375px) {
+    .tracker-number {
+        font-size: 3.5rem;
+    }
+
+    #tracker-name {
+        font-size: 1.2rem;
+    }
 }

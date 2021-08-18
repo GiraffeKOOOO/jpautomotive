@@ -14,3 +14,30 @@
   height: 50px;
   padding-right: 0px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+  
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  
+}
+
+/* Laptop - 1024px */
+@media (max-width: 1024px) {
+  
+}

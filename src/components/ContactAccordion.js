@@ -11,9 +11,9 @@ import '../css/components/ContactAccordion.css';
 function ContactAccordion() {
     return (
       <div>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="0" id="accordion">
             <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="0" className="card-header">Call Us <AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
+                <Accordion.Toggle as={Card.Header} eventKey="0" id="card-header">Call Us <AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
                     <Card.Body>
                       <p>
