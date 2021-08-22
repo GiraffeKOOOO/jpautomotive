@@ -20,25 +20,25 @@ function FooterCardContact() {
                 <ListGroup variant="flush">
                   <ListGroup.Item id="card-body">
                     <Row>
-                      <Col>Phone</Col>
-                      <Col><FaPhoneAlt/> 07498943120</Col>
+                      <Col><p id="phone-title">Phone</p></Col>
+                      <Col><FaPhoneAlt/> <p id="phone-details">07498943120</p></Col>
                     </Row>
                   </ListGroup.Item>
                   <ListGroup.Item id="card-body">
                     <Row>
-                      <Col>E-mail</Col>
+                      <Col><p id="email-title">E-mail</p></Col>
                       <Col>
-                        <span><BsFillEnvelopeFill/> j.pautomotivetec@gmail.com </span>
+                        <span><BsFillEnvelopeFill/> <p id="email-details">j.pautomotivetec@gmail.com</p> </span>
                       </Col>
                     </Row>
                   </ListGroup.Item>
                   <ListGroup.Item id="card-body">
                     <Row>
-                      <Col>Contact Form</Col>
+                      <Col><p id="contact-title">Contact Form</p></Col>
                       <Col>
                         <div>
-                          <p>Go to contact us page:</p>
-                          <Link id="nav-link" to="jpautomotive/contact">Contact Us</Link>
+                          <p id="contact-details">Go to contact us page:</p>
+                          <Link class="footer-contact-button" id="nav-link" to="jpautomotive/contact">Contact Us</Link>
                         </div>
                       </Col>
                     </Row>

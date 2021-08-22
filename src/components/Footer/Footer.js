@@ -8,7 +8,6 @@ import FooterCardSocial from './FooterCardSocial';
 import FooterButtons from './FooterButtons';
 // import styling
 import '../../css/components/Footer/Footer.css';
-
 // import media
 import jpLogoWhite from '../../images/jp-logo-1-white.png';
 
@@ -26,20 +25,20 @@ function Footer() {
                 />
               </Col>
               <Col id="nav-buttons" md={6}>
-              <FooterButtons/>
+                <FooterButtons/>
               </Col>
               <Col md={3}/>
             </Row>
             <Row id="info-row">
-              <Col id="contact-us-col" md={2}></Col>
-              <Col id="contact-hours-col" md={8}>
+              <Col id="col-left" xs={0} md={0} lg={1}></Col>
+              <Col id="col-center" xs={12} md={12} lg={10}>
                 <Row>
                   <Col md={5}><FooterCardContact/></Col>
                   <Col md={4}><FooterCardHours/></Col>
                   <Col md={3}><FooterCardSocial/></Col>
                 </Row>
               </Col>
-              <Col id="find-us-col" md={2}></Col>
+              <Col id="col-right" xs={0} md={0} lg={1}></Col>
             </Row>
             <Row id="copyright-row">
               <Col>

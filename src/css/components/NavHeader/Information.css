@@ -46,10 +46,6 @@
 
 /* Mobile S - 320px */
 @media (max-width: 320px) {
-    p {
-        font-size: 1.2rem;
-    }
-
     #info-time {
         margin-left: 5px;
     }

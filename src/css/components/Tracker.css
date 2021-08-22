@@ -11,6 +11,57 @@
     font-size: 2rem;
 }
 
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+    .tracker-number {
+        font-size: 5.5rem;
+    }
+
+    #tracker-name {
+        font-size: 1.7rem;
+    }
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    .tracker-number {
+        font-size: 5.5rem;
+    }
+
+    #tracker-name {
+        font-size: 1.5rem;
+    }
+  
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    .tracker-number {
+        font-size: 5rem;
+    }
+
+    #tracker-name {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    .tracker-number {
+        font-size: 4.5rem;
+    }
+
+    #tracker-name {
+        font-size: 1.2rem;
+    }
+  
+}
+
+/* Mobile M - 375px */
 @media (max-width: 375px) {
     .tracker-number {
         font-size: 3.5rem;
@@ -18,5 +69,13 @@
 
     #tracker-name {
         font-size: 1.2rem;
+    }
+
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #tracker-name {
+        font-size: 1.1rem;
     }
 }

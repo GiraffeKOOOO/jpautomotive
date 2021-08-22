@@ -30,7 +30,7 @@ function Home() {
                     <Col id="center-col" xs={10}>
                         <h1 className="home-page-title"> Our Services</h1>
                         <Container id="services-container" fluid>
-                            <Row xs={12}>
+                            <Row>
                                 <Col className="col-service-card">
                                     <ServiceCard
                                         cardImage={carTire}

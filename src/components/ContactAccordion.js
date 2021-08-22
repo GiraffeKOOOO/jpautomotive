@@ -13,7 +13,7 @@ function ContactAccordion() {
       <div>
         <Accordion defaultActiveKey="0" id="accordion">
             <Card>
-                <Accordion.Toggle as={Card.Header} eventKey="0" id="card-header">Call Us <AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
+                <Accordion.Toggle as={Card.Header} eventKey="0" id="call-header">Call Us <AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
                     <Card.Body>
                       <p>
@@ -31,7 +31,7 @@ function ContactAccordion() {
                 </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="1" className="card-header">Email Us<AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
+              <Accordion.Toggle as={Card.Header} eventKey="1" id="email-header">Email Us<AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
                     <Card.Body>
                       <p>
@@ -49,7 +49,7 @@ function ContactAccordion() {
                 </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="2" className="card-header">Contact Us<AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
+              <Accordion.Toggle as={Card.Header} eventKey="2" id="form-header">Contact Us<AiFillCaretDown className="AiFillCaretDown"/></Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
                     <Card.Body>
                       <p>

@@ -54,8 +54,8 @@
 /* Mobile XL - 553px */
 @media (max-width: 553px) {
     #nav-link {
-        padding-left: 37px;
-        padding-right: 37px;
+        padding-left: 32px;
+        padding-right: 32px;
         font-size: 1rem;
     } 
 }
@@ -63,7 +63,7 @@
 /* Mobile L - 425px */
 @media (max-width: 425px) {
     #nav-link {
-        padding-left: 22px;
+        padding-left: 17px;
         padding-right: 20px;
         font-size: 1rem;
     } 
@@ -72,7 +72,7 @@
 /* Mobile M - 375px */
 @media (max-width: 375px) {
     #nav-link {
-        padding-left: 20px;
+        padding-left: 15px;
         padding-right: 10px;
         font-size: 1rem;
     } 
@@ -81,8 +81,8 @@
 /* Mobile S - 320px */
 @media (max-width: 320px) {
     #nav-link {
-        padding-left: 12px;
-        padding-right: 4px;
+        padding-left: 3px;
+        padding-right: 0px;
         font-size: 1rem;
     } 
 }

@@ -10,7 +10,7 @@
 
 #footer-link {
     color:white;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Abel';
     text-align: center;
     padding-left: 30px;
@@ -25,4 +25,80 @@
     background-color: #8a8a8a;
     border-radius: 5px;
     transition: 0.3s;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+    #footer-link {
+        font-size: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    #footer-link {
+        font-size: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #footer-link {
+        font-size: 2rem;
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 21px;
+    }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    #footer-link {
+        font-size: 1.7rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 14px;
+    }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    #footer-link {
+        font-size: 1.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 10px;
+    }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #footer-link {
+        font-size: 1.3rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 5px;
+    }
 }

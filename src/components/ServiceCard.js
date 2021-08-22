@@ -8,10 +8,10 @@ import '../css/components/ServiceCard.css';
 function ServiceCard(props) {
     return (
       <div id="card-div">
-          <Card border={"grey"} style={{ width: '21rem' }}>
+          <Card id="service-card">
               <Card.Img variant="top" src={props.cardImage} id="card-image"/>
-                <Card.Header>{props.cardTitle}</Card.Header>
-                <Card.Body>
+                <Card.Header id="service-card-header">{props.cardTitle}</Card.Header>
+                <Card.Body id="service-card-body">
                     <Card.Text>{props.cardText}</Card.Text>
                 </Card.Body>
             </Card>
