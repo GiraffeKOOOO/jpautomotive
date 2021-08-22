@@ -15,6 +15,11 @@
   
 }
 
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+  
+}
+
 /* Mobile L - 425px */
 @media (max-width: 425px) {
   
@@ -43,5 +48,9 @@
 @media (max-width: 320px) {
     p {
         font-size: 1.2rem;
+    }
+
+    #info-time {
+        margin-left: 5px;
     }
 }

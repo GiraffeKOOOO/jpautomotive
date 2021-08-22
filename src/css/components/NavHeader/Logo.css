@@ -52,11 +52,19 @@
     }
 }
 
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #logo-div {
+        padding-left: 240px;
+        padding-right: 90px;
+    }
+}
+
 /* Mobile L - 425px */
 @media (max-width: 425px) {
     #logo-div {
-        padding-left: 117px;
-        padding-right: 0px;
+        padding-left: 170px;
+        padding-right: 40px;
     }
 
     #logo-img {
@@ -67,8 +75,8 @@
 /* Mobile M - 375px */
 @media (max-width: 375px) {
     #logo-div {
-        padding-left: 117px;
-        padding-right: 0px;
+        padding-left: 135px;
+        padding-right: 25px;
     }
 
     #logo-img {

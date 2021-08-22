@@ -14,7 +14,7 @@ function NavHeader() {
     return (
         <nav>
             <Container id="nav-container" fluid>
-                <Row>
+                <Row id="top-row">
                     <Col id="quadrant-logo" xs={12} md={7}>
                         <Logo/>
                     </Col>
@@ -22,7 +22,7 @@ function NavHeader() {
                         <Information/>
                     </Col>
                 </Row>
-                <Row>
+                <Row id="bottom-row">
                     <Col id="quadrant-logo-below" xs={0} md={6}/>
                     <Col id="quadrant-buttons" xs={12} md={6}>
                         <NavButtons />

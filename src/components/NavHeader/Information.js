@@ -14,7 +14,7 @@ const Information = () => {
             <Row>
                 <Col id="info-time">
                     <ClockFill color="#03b6fc" size={21}/>
-                    <p>Mon-Fri: 9am-5pm</p>
+                    <p>Mon-Fri <br/> 9am-5pm</p>
                 </Col>
                 <Col id="info-number">
                     <TelephoneFill color="#03b6fc" size={22}/>

@@ -5,7 +5,6 @@ import '../../css/components/NavHeader/Logo.css';
 // import media
 import jplogo from '../../images/jp-logo-1.png';
 
-
 const Logo = () => {
     return(
         <div id="logo-container">

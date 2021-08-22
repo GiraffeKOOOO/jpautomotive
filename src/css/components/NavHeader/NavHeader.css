@@ -17,18 +17,8 @@
 
 /* ----- MEDIA QUERIES ----- */
 
-/* Mobile S - 320px */
-@media (max-width: 320px) {
-
-}
-
-/* Mobile M - 375px */
-@media (max-width: 375px) {
-  
-}
-
-/* Mobile L - 425px */
-@media (max-width: 425px) {
+/* Laptop - 1024px */
+@media (max-width: 1024px) {
   
 }
 
@@ -37,7 +27,55 @@
   
 }
 
-/* Laptop - 1024px */
-@media (max-width: 1024px) {
-  
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+  #quadrant-logo-below {
+    background-color: red;
+    width: 0;
+    height: 0;
+  }
+
+  #top-row {
+    margin-bottom: -20px;
+  }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+  #quadrant-logo-below {
+    background-color: red;
+    width: 0;
+    height: 0;
+  }
+
+  #top-row {
+    margin-bottom: -15px;
+  }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+  #quadrant-logo-below {
+    background-color: red;
+    width: 0;
+    height: 0;
+  }
+
+  #top-row {
+    margin-bottom: -10px;
+  }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+  #quadrant-logo-below {
+    background-color: red;
+    width: 0;
+    height: 0;
+  }
+
+  #top-row {
+    margin-bottom: -10px;
+  }
 }

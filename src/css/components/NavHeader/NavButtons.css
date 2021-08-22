@@ -35,10 +35,54 @@
     text-decoration: none;
 }
 
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    #nav-link {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1rem;
+    } 
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #nav-link {
+        padding-left: 37px;
+        padding-right: 37px;
+        font-size: 1rem;
+    } 
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    #nav-link {
+        padding-left: 22px;
+        padding-right: 20px;
+        font-size: 1rem;
+    } 
+}
+
+/* Mobile M - 375px */
 @media (max-width: 375px) {
     #nav-link {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 10px;
         font-size: 1rem;
-    }   
+    } 
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #nav-link {
+        padding-left: 12px;
+        padding-right: 4px;
+        font-size: 1rem;
+    } 
 }
