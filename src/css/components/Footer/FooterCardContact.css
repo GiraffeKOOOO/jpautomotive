@@ -27,7 +27,38 @@
 
 /* iPad - 1024px */
 @media (max-width: 1024px) {
-  
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -95px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    #contact-details {
+        font-size: 0.95rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 120px;
+    }
 }
 
 /* Tablet - 768px */
@@ -55,21 +86,49 @@
     #contact-title {
         font-size: 1rem;
         margin-top: 15px;
-        margin-left: -20px;
+        margin-left: -50px;
     }
 
     #contact-details {
         font-size: 0.95rem;
         margin-top: 10px;
         margin-bottom: 15px;
+        width: 120px;
     }
   
 }
 
 /* Mobile XL - 553px */
 @media (max-width: 553px) {
-    #contact-details {
+    #phone-title {
         font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -35px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -35px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    #contact-details {
+        font-size: 0.9rem;
+        margin-top: 10px;
         margin-bottom: 15px;
     }
 

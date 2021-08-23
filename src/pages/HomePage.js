@@ -92,7 +92,7 @@ function Home() {
                 </Row>
                 <Row id="row-contact"> 
                     <Col id="left-col" xs={0} md={2}/>
-                    <Col id="center-col" xs={12} md={8}>
+                    <Col id="center-col" className="contact-accordion-class" xs={11} md={8}>
                         <h1 className="home-page-title"> Contact Information</h1>
                         <Row id="inner-contact-row">
                             <Col className="contact-col" id="info-col" xs={12} md={6}>
