@@ -4,8 +4,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 // import styling
 import '../../css/components/NavHeader/NavButtons.css';
-// import media
-
 
 const NavButtons = () => {
     return(

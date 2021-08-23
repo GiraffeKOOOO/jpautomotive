@@ -13,3 +13,82 @@
 #accordion-contact-text {
     margin-bottom: 25px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #accordion {
+        width: 530px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #card-Header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    #accordion {
+        width: 405px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #card-Header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    #accordion {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #card-Header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #accordion {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #nav-link {
+        background-color: #03b6fc;
+        padding-right: 12px;
+    }
+
+    #call-header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

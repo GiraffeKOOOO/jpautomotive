@@ -2,3 +2,51 @@
     height: 100%;
     display: inline;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+  
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+  
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    #info-time {
+        width: 187px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #info-number {
+        width: 187px !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #info-time {
+        margin-left: 5px;
+    }
+}

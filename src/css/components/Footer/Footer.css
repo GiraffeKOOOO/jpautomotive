@@ -31,3 +31,50 @@
 #info-row {
     margin-top: 20px;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+    
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    #footer-logo-img {
+        width: 180px;
+        height: 100px;
+    }
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #footer-logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    #footer-logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    #footer-logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #footer-logo-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

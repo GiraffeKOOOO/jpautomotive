@@ -19,15 +19,15 @@ function Home() {
         <div id="home-page-body">
             <Container className="page-container" fluid>
                 <Row id="row-carouself">
-                    <Col id="left-col" md={1}/>
-                    <Col id="center-col" md={10}>
+                    <Col id="left-col" xs={0}/>
+                    <Col id="center-col" xs={12}>
                         <HomeCarousel/>
                     </Col>
-                    <Col id="right-col" md={1}/>
+                    <Col id="right-col" xs={0}/>
                 </Row>
                 <Row id="row-services">
-                    <Col id="left-col" md={1}/>
-                    <Col id="center-col" md={10}>
+                    <Col id="left-col" xs={1}/>
+                    <Col id="center-col" xs={10}>
                         <h1 className="home-page-title"> Our Services</h1>
                         <Container id="services-container" fluid>
                             <Row>
@@ -55,32 +55,32 @@ function Home() {
                             </Row>
                         </Container>
                     </Col>
-                    <Col id="right-col" md={1}/>
+                    <Col id="right-col" xs={1}/>
                 </Row>
                 <Row id="row-trackers">
-                    <Col id="col-trackers">
+                    <Col id="col-trackers" xs={12}>
                         <h1 id="trackers-title">Trackers</h1>
                         <Container id="tracker-container" fluid>
                             <Row>
-                                <Col className="col-tracker">
+                                <Col className="col-tracker" xs={3}>
                                     <Tracker
                                         trackerNumber={24}
                                         trackerName="Jobs Completed"
                                     />
                                 </Col>
-                                <Col className="col-tracker">
+                                <Col className="col-tracker" xs={3}>
                                     <Tracker
                                         trackerNumber={13}
                                         trackerName="Tires Changed"
                                     />
                                 </Col>
-                                <Col className="col-tracker">
+                                <Col className="col-tracker" xs={3}>
                                     <Tracker
                                         trackerNumber={17}
                                         trackerName="Oil Filters Replaced"
                                     />
                                 </Col>
-                                <Col className="col-tracker">
+                                <Col className="col-tracker" xs={3}>
                                     <Tracker
                                         trackerNumber={11}
                                         trackerName="Cars Diagnosed"
@@ -91,14 +91,14 @@ function Home() {
                     </Col>
                 </Row>
                 <Row id="row-contact"> 
-                    <Col id="left-col" md={2}/>
-                    <Col id="center-col" md={8}>
+                    <Col id="left-col" xs={0} md={2}/>
+                    <Col id="center-col" className="contact-accordion-class" xs={11} md={8}>
                         <h1 className="home-page-title"> Contact Information</h1>
                         <Row id="inner-contact-row">
-                            <Col className="contact-col" id="info-col">
+                            <Col className="contact-col" id="info-col" xs={12} md={6}>
                                 <ContactAccordion/>
                             </Col>
-                            <Col className="contact-col" id="info-col-img">
+                            <Col className="contact-col" id="info-col-img" md={6}>
                                 <img
                                     src={supportIcon}
                                     alt="support-icon"
@@ -107,7 +107,7 @@ function Home() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col id="right-col" md={2}/>
+                    <Col id="right-col" xs={0} md={2}/>
                 </Row>
             </Container>
         </div>

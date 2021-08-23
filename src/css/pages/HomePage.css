@@ -77,3 +77,159 @@
   padding: 0;
   float: left;
 }
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+  
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  #support-icon {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #row-trackers {
+    margin-top: 20px;
+  }
+
+  #inner-contact-row {
+    margin-top: 30px;
+  }
+
+  #info-col {
+    margin-top: 10px;
+  }
+
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+  #support-icon {
+    width: 553px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #services-container {
+    margin-top: 20px;
+  }
+
+  .home-page-title {
+    margin-top: -30px;
+  }
+
+  #row-trackers {
+    margin-top: 0px;
+  }
+
+  #inner-contact-row {
+    margin-top: 30px;
+  }
+
+  #col-trackers {
+    margin-bottom: 20px;
+  }
+
+  #info-col {
+    margin-top: 5px;
+  }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+  #support-icon {
+    width: 425px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #services-container {
+    margin-top: 20px;
+  }
+
+  .home-page-title {
+    margin-top: -30px;
+  }
+
+  #row-trackers {
+    margin-top: 0px;
+  }
+
+  #inner-contact-row {
+    margin-top: 30px;
+  }
+
+  #col-trackers {
+    margin-bottom: 20px;
+  }
+
+  #info-col {
+    margin-top: 10px;
+  }
+
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+  #support-icon {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #services-container {
+    margin-top: 20px;
+  }
+
+  .home-page-title {
+    margin-top: -30px;
+  }
+
+  #row-trackers {
+    margin-top: 0px;
+  }
+
+  #inner-contact-row {
+    margin-top: 30px;
+  }
+
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+  #support-icon {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  #services-container {
+    margin-top: 20px;
+  }
+
+  .home-page-title {
+    margin-top: -25px;
+  }
+
+  #row-trackers {
+    margin-top: 0px;
+  }
+
+  #inner-contact-row {
+    margin-top: 30px;
+  }
+
+}

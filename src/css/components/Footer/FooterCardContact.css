@@ -15,3 +15,229 @@
     font-family: 'Abel';
     font-size: 30px;
 }
+
+.footer-contact-button {
+    padding-top: 8px !important;
+    padding-bottom: 9px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+/* iPad - 1024px */
+@media (max-width: 1024px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -95px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -40px;
+    }
+
+    #contact-details {
+        font-size: 0.95rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 120px;
+    }
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -110px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -50px;
+    }
+
+    #contact-details {
+        font-size: 0.95rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 120px;
+    }
+  
+}
+
+/* Mobile XL - 553px */
+@media (max-width: 553px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -35px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -35px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    #contact-details {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -65px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -35px;
+    }
+
+    #email-details {
+        font-size: 0.9rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    #contact-details {
+        font-size: 0.95rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+  
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -65px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+
+    #email-details {
+        font-size: 0.8rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    #contact-details {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* Mobile S - 320px */
+@media (max-width: 320px) {
+    #phone-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -55px;
+    }
+
+    #phone-details {
+        font-size: 1rem;
+    }
+
+    #email-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    #email-details {
+        font-size: 0.8rem;
+    }
+
+    #contact-title {
+        font-size: 1rem;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+
+    #contact-details {
+        width: 120px;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

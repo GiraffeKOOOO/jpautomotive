@@ -12,6 +12,7 @@ export default function App() {
         <NavHeader/>
         <Switch>
           {/* whilst this is hosted on github pages, the path for the homepage needs to include jpautomotive*/}
+          <Route path="/" exact component={HomePage}/>
           <Route path="/jpautomotive" exact component={HomePage}/>
           <Route path="/jpautomotive/about" component={AboutPage}/>
         </Switch>
