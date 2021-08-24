@@ -4,6 +4,7 @@ import NavHeader from './components/NavHeader/NavHeader';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" exact component={HomePage}/>
           <Route path="/jpautomotive" exact component={HomePage}/>
           <Route path="/jpautomotive/about" component={AboutPage}/>
+          <Route path="/jpautomotive/contact" exact component={ContactPage}/>
         </Switch>
         <Footer/>
       </div>
